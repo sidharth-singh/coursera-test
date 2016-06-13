@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #381111;
+
+}
+h1 {
+	color: #fa0000;
+	background: yellow;
+	width: 500px;
+    margin: 30px 30px 70px 50px;
+    margin-left: center;
+    font-size: 72px;
+    text-align: center;
+    font-weight: 900;
+}
+h1:hover {
+	background: orange;
+	color: cyan;
+	cursor: pointer;
+}
+
+#box{
+	background: gray;
+	padding: 10px;
+	width: 300px;
+	text-align: center;
+	margin: 20px;
+	border: 5px solid yellow;
+	
+	overflow: auto;
+    
+}
+#box:hover{
+	font-size: 200%;
+	border: 10px solid black;
+}
+#content{
+	background: #90ee90;
+	font-size: 120%;
+    font-style: italic;
+    font-family: comic;
+}
